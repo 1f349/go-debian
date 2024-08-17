@@ -29,8 +29,8 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/crypto/openpgp"
-	"golang.org/x/crypto/openpgp/clearsign"
+	"github.com/ProtonMail/go-crypto/openpgp"
+	"github.com/ProtonMail/go-crypto/openpgp/clearsign"
 )
 
 // A Paragraph is a block of RFC2822-like key value pairs. This struct contains
