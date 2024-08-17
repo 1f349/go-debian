@@ -309,6 +309,7 @@ func (p *ParagraphReader) decodeClearsig(keyring *openpgp.EntityList) error {
 		keyring,
 		bytes.NewReader(block.Bytes),
 		block.ArmoredSignature.Body,
+		nil,
 	)
 
 	if err != nil {
